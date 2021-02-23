@@ -11,6 +11,7 @@ import java.util.List;
 public class DelfiTests {
     private final By ACCEPT_COOKIES_BTN = By.xpath(".//button[@mode = 'primary']");
     private final By ARTICLE_TITLE = By.xpath(".//span[@itemprop = 'headline name']");
+    private final By COMMENTS_BY_AUTHOR = By.className(".comments-block__comments .article-comments");
 
 
     @Test
